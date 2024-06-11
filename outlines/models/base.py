@@ -1,8 +1,5 @@
 from typing import TYPE_CHECKING, Callable
 
-from llama_index.callbacks import CallbackManager
-from llama_index.indices.prompt_helper import PromptHelper
-from llama_index.llms.base import LLM
 from outlines.tools.llama_index import set_llama_index_model_function
 
 if TYPE_CHECKING:

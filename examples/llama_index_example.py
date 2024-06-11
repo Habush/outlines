@@ -4,8 +4,8 @@ It relies on one of the examples proposed by llama_index: https://github.com/run
 """
 import outlines.text.generate as generate
 import outlines.models as models
-from llama_index import VectorStoreIndex, SimpleDirectoryReader, ServiceContext
-from llama_index.response_synthesizers import (
+from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, ServiceContext
+from llama_index.core.response_synthesizers import (
     ResponseMode,
     get_response_synthesizer,
 )
