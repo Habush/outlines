@@ -8,6 +8,7 @@ import numpy as np
 
 from outlines.base import vectorize
 from outlines.caching import cache
+from outlines.models.base import BaseModel
 
 __all__ = ["OpenAI", "openai", "azure_openai"]
 
